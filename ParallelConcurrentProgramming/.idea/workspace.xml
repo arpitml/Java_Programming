@@ -17,27 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SemaphoreDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH01/01_06/end/SemaphoreDemo/src/SemaphoreDemo.java">
+      <file leaf-file-name="CountDownLatchExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/barriers/CountDownLatchExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SemaphoreExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/synchronization/SemaphoreExample.java">
+      <file leaf-file-name="CyclicBarrierExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/barriers/CyclicBarrierExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+            <state relative-caret-position="51">
+              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,6 +63,10 @@
       <find>personTurn</find>
       <find>Customer</find>
       <find>BlockingQueue&lt;String&gt;</find>
+      <find>Account</find>
+      <find>balance</find>
+      <find>notepad</find>
+      <find>chipsBags</find>
     </findStrings>
     <replaceStrings>
       <replace>BuyFruitVegetable</replace>
@@ -72,6 +78,10 @@
       <replace>soupTaken</replace>
       <replace>Consumer</replace>
       <replace>List&lt;String&gt;</replace>
+      <replace>PartyChipsBags</replace>
+      <replace>chipsBags</replace>
+      <replace>barrier</replace>
+      <replace>bags</replace>
     </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -106,11 +116,16 @@
         <option value="$PROJECT_DIR$/src/synchronization/ProducerConsumerExample.java" />
         <option value="$PROJECT_DIR$/src/synchronization/SemaphoreCountingExample.java" />
         <option value="$PROJECT_DIR$/src/synchronization/SemaphoreExample.java" />
+        <option value="$PROJECT_DIR$/src/barriers/CyclicBarrier.java" />
+        <option value="$PROJECT_DIR$/src/barriers/RaceConditon.java" />
+        <option value="$PROJECT_DIR$/src/barriers/CountDownLatch.java" />
+        <option value="$PROJECT_DIR$/src/barriers/CountDownLatchExample.java" />
+        <option value="$PROJECT_DIR$/src/barriers/CyclicBarrierExample.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="687" />
+    <option name="width" value="683" />
     <option name="height" value="738" />
   </component>
   <component name="ProjectView">
@@ -162,15 +177,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreExample">
-    <configuration name="AbandonedLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CountDownLatchExample">
+    <configuration name="CountDownLatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="liveness.*" />
+          <option name="PATTERN" value="barriers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="liveness.AbandonedLockExample" />
+      <option name="MAIN_CLASS_NAME" value="barriers.CountDownLatchExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -182,14 +197,14 @@
       <module name="ParallelConcurrentProgramming" />
       <envs />
     </configuration>
-    <configuration name="ConditionVariableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CyclicBarrierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="synchronization.*" />
+          <option name="PATTERN" value="barriers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="synchronization.ConditionVariableExample" />
+      <option name="MAIN_CLASS_NAME" value="barriers.CyclicBarrierExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -201,14 +216,14 @@
       <module name="ParallelConcurrentProgramming" />
       <envs />
     </configuration>
-    <configuration name="ProducerConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RaceConditon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="synchronization.*" />
+          <option name="PATTERN" value="barriers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="synchronization.ProducerConsumerExample" />
+      <option name="MAIN_CLASS_NAME" value="barriers.RaceConditon" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -274,19 +289,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AbandonedLockExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ConditionVariableExample" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ProducerConsumerExample" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SemaphoreCountingExample" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SemaphoreExample" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SemaphoreCountingExample" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SemaphoreExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RaceConditon" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CyclicBarrierExample" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CountDownLatchExample" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SemaphoreExample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SemaphoreCountingExample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ProducerConsumerExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ConditionVariableExample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AbandonedLockExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CountDownLatchExample" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CyclicBarrierExample" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RaceConditon" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SemaphoreExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SemaphoreCountingExample" />
       </list>
     </recent_temporary>
   </component>
@@ -317,12 +332,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5986278" sideWeight="0.44783306" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.312187" sideWeight="0.55216694" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4524207" sideWeight="0.55216694" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -345,38 +360,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Programming_Java_1/Ex_Files_Parallel_Programming_Java_1/Exercise Files/CH02/02_05/end/ExecutionSchedulingDemo/src/ExecutionSchedulingDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Programming_Java_1/Ex_Files_Parallel_Programming_Java_1/Exercise Files/CH02/02_07/begin/ThreadLifecycleDemo/src/ThreadLifecycleDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Programming_Java_1/Ex_Files_Parallel_Programming_Java_1/Exercise Files/CH02/02_07/end/ThreadLifecycleDemo/src/ThreadLifecycleDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Programming_Java_1/Ex_Files_Parallel_Programming_Java_1/Exercise Files/CH02/02_09/end/RunnableDemo/src/RunnableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Programming_Java_1/Ex_Files_Parallel_Programming_Java_1/Exercise Files/CH02/02_11/end/DaemonThreadDemo/src/DaemonThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
@@ -739,9 +722,9 @@
         <state relative-caret-position="-522">
           <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#533#534#0" expanded="false" />
+            <element signature="e#573#574#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -751,7 +734,7 @@
         <state relative-caret-position="77">
           <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -761,7 +744,7 @@
         <state relative-caret-position="-357">
           <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -788,22 +771,88 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH01/01_06/end/SemaphoreDemo/src/SemaphoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
+        <state relative-caret-position="-268">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/synchronization/SemaphoreExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="-238">
           <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH02/02_02/end/RaceConditionDemo/src/RaceConditionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/barriers/RaceConditonExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="42" column="3" lean-forward="false" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH02/02_04/end/BarrierDemo/src/BarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH02/02_05/end/CountDownLatchDemo/src/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/barriers/CountDownLatchExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/barriers/CyclicBarrierExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
           </folding>
         </state>
       </provider>
