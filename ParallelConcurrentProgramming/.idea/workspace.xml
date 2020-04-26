@@ -17,49 +17,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbandonedLockExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liveness/AbandonedLockExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConditionVariableDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH01/01_02/end/ConditionVariableDemo/src/ConditionVariableDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProducerConsumerDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH01/01_04/end/ProducerConsumerDemo/src/ProducerConsumerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SemaphoreDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SemaphoreDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH01/01_06/end/SemaphoreDemo/src/SemaphoreDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-119">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemaphoreExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/synchronization/SemaphoreExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +58,9 @@
       <find>BuyFruitVegetable</find>
       <find>itemsToAdd</find>
       <find>Philosopher</find>
+      <find>personTurn</find>
+      <find>Customer</find>
+      <find>BlockingQueue&lt;String&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>BuyFruitVegetable</replace>
@@ -88,6 +69,9 @@
       <replace>Judge</replace>
       <replace>Lawyer</replace>
       <replace>Teacher</replace>
+      <replace>soupTaken</replace>
+      <replace>Consumer</replace>
+      <replace>List&lt;String&gt;</replace>
     </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -118,6 +102,10 @@
         <option value="$PROJECT_DIR$/src/liveness/DeadlockExample.java" />
         <option value="$PROJECT_DIR$/src/liveness/LivelockExample.java" />
         <option value="$PROJECT_DIR$/src/liveness/AbandonedLockExample.java" />
+        <option value="$PROJECT_DIR$/src/synchronization/ConditionVariableExample.java" />
+        <option value="$PROJECT_DIR$/src/synchronization/ProducerConsumerExample.java" />
+        <option value="$PROJECT_DIR$/src/synchronization/SemaphoreCountingExample.java" />
+        <option value="$PROJECT_DIR$/src/synchronization/SemaphoreExample.java" />
       </list>
     </option>
   </component>
@@ -174,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AbandonedLockExample">
+  <component name="RunManager" selected="Application.SemaphoreExample">
     <configuration name="AbandonedLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -194,14 +182,14 @@
       <module name="ParallelConcurrentProgramming" />
       <envs />
     </configuration>
-    <configuration name="DeadLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ConditionVariableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="liveness.*" />
+          <option name="PATTERN" value="synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="liveness.DeadLockExample" />
+      <option name="MAIN_CLASS_NAME" value="synchronization.ConditionVariableExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -213,14 +201,14 @@
       <module name="ParallelConcurrentProgramming" />
       <envs />
     </configuration>
-    <configuration name="DeadlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="liveness.*" />
+          <option name="PATTERN" value="synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="liveness.DeadlockExample" />
+      <option name="MAIN_CLASS_NAME" value="synchronization.ProducerConsumerExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -232,14 +220,14 @@
       <module name="ParallelConcurrentProgramming" />
       <envs />
     </configuration>
-    <configuration name="LivelockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SemaphoreCountingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="liveness.*" />
+          <option name="PATTERN" value="synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="liveness.LivelockExample" />
+      <option name="MAIN_CLASS_NAME" value="synchronization.SemaphoreCountingExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -251,14 +239,14 @@
       <module name="ParallelConcurrentProgramming" />
       <envs />
     </configuration>
-    <configuration name="StarvationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="liveness.*" />
+          <option name="PATTERN" value="synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="liveness.StarvationExample" />
+      <option name="MAIN_CLASS_NAME" value="synchronization.SemaphoreExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -286,19 +274,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DeadLockExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StarvationExample" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LivelockExample" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DeadlockExample" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AbandonedLockExample" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AbandonedLockExample" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ConditionVariableExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ProducerConsumerExample" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SemaphoreCountingExample" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SemaphoreExample" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AbandonedLockExample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DeadlockExample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LivelockExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StarvationExample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DeadLockExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SemaphoreExample" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SemaphoreCountingExample" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ProducerConsumerExample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ConditionVariableExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AbandonedLockExample" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +317,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5986278" sideWeight="0.44783306" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21368948" sideWeight="0.55216694" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.312187" sideWeight="0.55216694" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -733,24 +721,74 @@
         <state relative-caret-position="128">
           <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/synchronization/SemaphoreBinaryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/synchronization/ConditionVariableExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/synchronization/ProducerConsumerBlockingQueueExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="55" column="34" lean-forward="true" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH01/01_02/end/ConditionVariableDemo/src/ConditionVariableDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/synchronization/ProducerConsumerExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-357">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH01/01_04/end/ProducerConsumerDemo/src/ProducerConsumerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-187">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH01/01_02/end/ConditionVariableDemo/src/ConditionVariableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH01/01_06/end/SemaphoreDemo/src/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -758,12 +796,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Ex_Files_Parallel_Concurrent_Prog_Java_2/Ex_Files_Parallel_Concurrent_Prog_Java_2/Exercise Files/CH01/01_06/end/SemaphoreDemo/src/SemaphoreDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/synchronization/SemaphoreExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
           </folding>
         </state>
       </provider>
