@@ -5,6 +5,7 @@
 
 public class Lambda_04 {
 
+    // Functional Interface at most one abstract function
     @FunctionalInterface
     interface Calculator{
         int cal(int x, int y);
